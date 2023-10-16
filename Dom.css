@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(228, 173, 230);
+    color: white;
+    height: 90px;
+    padding-left: 20px;
+    overflow: hidden;
+    top: 0;
+}
+
+.header-list li {
+    list-style: none;
+
+}
+
+.header-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-logo {
+    margin: auto;
+    float: left;
+    font-size: 36px;
+    padding: 25px 10px;
+    letter-spacing: 5px;
+}
+
+.header-logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo:hover {
+    background-color: white;
+    color: black;
+}
+
+.header-list {
+    float: right;
+}
+
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+    height: 24px;
+}
+
+
+.header-list .list li:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(54, 50, 50);
+    color: white;
+    height: 120px;
+    text-align: center;
+}
+
+#footer {
+    display: none;
+    
+}
+footer h1 {
+    padding: 40px 0;
+}
+
+#left-nav {
+    width: 30%;
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+
+.input-data {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color:rgb(228, 173, 230);;
+    border: dashed white 1px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.input-data:hover {
+    cursor: pointer;
+    background-color: white;
+    color:  #888487;
+}
+
+#color-set {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.color-content {
+    margin-left: 20px;
+    height: 40px;
+    border-top: solid rgb(228, 173, 230) 3px;
+    border-bottom: solid rgb(228, 173, 230) 2px;
+}
+
+#color-set{
+    width: 70%;
+}
+#color-set ul li{
+border: 2px solid pink;
+padding: 10px 0;
+list-style: none;
+}

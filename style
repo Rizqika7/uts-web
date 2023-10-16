@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* Navbar Start */
+
+.navbar{
+    background-color: rgb(228, 173, 230);
+    display: flex;
+    position: fixed;
+    padding: 2px ;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #888487;
+    z-index: 99999;
+}
+
+
+.navbar .navbar-logo{
+    color: #888487
+    font-style: navajowhite;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.navbar .navbar-logo span{
+    color: rgb(255, 255, 255);
+}
+
+
+.navbar .navbar-nav a{
+    color: #fff;
+    font-size: 15px;
+    margin: 0 20px;
+    font-weight: 700;
+}
+
+
+.navbar .navbar-nav a:hover{
+    color: rgb(139, 170, 175);
+    background-color: rgb(156, 124, 168);
+    padding: 15px;
+    margin: 5px;
+    transition: 0.4s;
+    border-radius: 20px;
+} 
+
+
+
+.navbar #menu{
+    color: #fdfcfc;
+    display: none;
+}
+
+.navbar #menu:hover{
+    color: rgb(139, 170, 175);
+}
+
+
+
+
+
+
+
+
+/* Navbar End */
+
+
+/* Banner Start */
+
+.banner-home{
+    margin-top: 10px;
+    height: 100px;
+    background-color:  #888487
+}
+
+/* Banner End */
+
+
+
+/* Daftar Film Start */
+
+.daftarFilm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.film{
+    border-bottom: 2px solid rgb(124, 124, 124) ;
+    margin-bottom:5px ;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.film:hover {
+    transform: scale(1.2); 
+    transition: 0.2s ;
+    border-radius: 30%;
+}
+
+
+.film h1{
+    text-align: center;
+}
+
+.sinopsis{
+    transition: 0.4s;
+    display: none;
+    text-align: center;
+    margin: 0 70px;
+}
+
+/* Daftar Film End */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Rizqika Azzahra Khairulrahmah</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+
+<body style="background-color: bisque;">
+    <header>
+        <div class="container">
+            <div class="header-logo">
+                <div>Rizqika Azzahra Khairulrahmah</div>
+            </div>
+            <div class="header-list">
+                <ul class="list" id="trylist">
+                    <a href="./rizqika.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./profil.html">
+                        <li>profile</li>
+                    </a>
+                    <a href="./layout.html">
+                        <li>Layout</li>
+                    </a>
+                    <a href="./Dom.html">
+                        <li>DOM</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div id="content" style="display: flex;">
+                <div id="left-nav" class="">
+                    <input type="text" class="input-data" id="text-data" placeholder="enter color">
+                    <button type="submit" id="set-bg" class="input-data" onclick="setcolor()">Set background</button>
+                    <button id="set-new-color" class="input-data" onclick="addColor()">Add New Color list</button>
+                    <button id="addfooter" class="input-data" onclick="addfooter()">Add Footer</button>
+                </div>
+                <div id="color-set">
+                 
+        
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer">
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+    </div>
+
+    <script src="./dom.js"></script>
+
+</body>
+
+</html>
